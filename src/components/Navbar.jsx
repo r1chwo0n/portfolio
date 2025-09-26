@@ -80,7 +80,7 @@ export default function Navbar() {
   );
 
   return (
-    <Box>
+    <Box position="sticky" top="0" zIndex="1000">
       <Box bg="#FFF6E3" py={4} px={4}>
         <Flex h={16} align="center" justify="center" position="relative">
           <IconButton
@@ -92,10 +92,10 @@ export default function Navbar() {
             position="absolute"
             left={4}
             color="#FFF6E3"
-            bg="pink.200" 
+            bg="pink.200"
             _hover={{ bg: "#B3E5FC" }}
           />
-          <Image src="src/image/logo.png" alt="My Logo" h="60px" />
+          <Image src="src/images/logo.png" alt="My Logo" h="60px" />
         </Flex>
       </Box>
 
