@@ -9,7 +9,6 @@ import {
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
-import { image } from "framer-motion/client";
 
 export default function Projects() {
   const [selected, setSelected] = useState("❤️In Progress");
