@@ -6,6 +6,7 @@ import {
   UnorderedList,
   ListItem,
   Link,
+  Stack,
 } from "@chakra-ui/react";
 
 export default function ProjectCard({
@@ -14,7 +15,9 @@ export default function ProjectCard({
   responsibilities,
   github,
   image,
-  research
+  research,
+  youtube,
+  circuit,
 }) {
   return (
     <Box bg="white" borderRadius="md" boxShadow="md" p={6} mb={4}>
@@ -44,18 +47,46 @@ export default function ProjectCard({
               {description}
             </Text>
           )}
+          <Stack spacing={2}>
+            {github && (
+              <Link href={github} color="blue.500" fontWeight="bold" isExternal>
+                View on GitHub
+              </Link>
+            )}
 
-          {github && (
-            <Link href={github} color="blue.500" fontWeight="bold" isExternal>
-              View on GitHub
-            </Link>
-          )}
+            {research && (
+              <Link
+                href={research}
+                color="blue.500"
+                fontWeight="bold"
+                isExternal
+              >
+                View on Research
+              </Link>
+            )}
 
-          {research && (
-            <Link href={research} color="blue.500" fontWeight="bold" isExternal>
-              View on Research
-            </Link>
-          )}
+            {youtube && (
+              <Link
+                href={youtube}
+                color="blue.500"
+                fontWeight="bold"
+                isExternal
+              >
+                View on Youtube
+              </Link>
+            )}
+
+            {circuit && (
+              <Link
+                href={circuit}
+                color="blue.500"
+                fontWeight="bold"
+                isExternal
+              >
+                View on Circuit
+              </Link>
+            )}
+          </Stack>
 
           {responsibilities && responsibilities.length > 0 && (
             <Box>

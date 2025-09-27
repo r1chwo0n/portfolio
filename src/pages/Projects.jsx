@@ -9,6 +9,7 @@ import {
 import { ChevronDownIcon } from "@chakra-ui/icons";
 import { useState } from "react";
 import ProjectCard from "../components/ProjectCard";
+import { image } from "framer-motion/client";
 
 export default function Projects() {
   const [selected, setSelected] = useState("❤️In Progress");
@@ -39,23 +40,46 @@ export default function Projects() {
           "Use the Copenhagen Chromosome Dataset to test and evaluate the model’s performance.",
           "Conduct Unit Testing, Functional Testing, and 10-Fold Cross Validation to ensure results closely align with the original research",
           "Compare and verified results between MATLAB Implementation and Python Implementation.",
-          "Package the Python library and prepared it for public release on PyPI to allow wider adoption and ease of use."
+          "Package the Python library and prepared it for public release on PyPI to allow wider adoption and ease of use.",
         ],
         image: "src\\images\\sgfc.png",
-        research: "https://ieeexplore.ieee.org/document/7338109"
+        research: "https://ieeexplore.ieee.org/document/7338109",
       },
     ],
     "💚Completed Projects": [
       {
-        title: "Portfolio Website",
-        description: "Responsive portfolio built with React + Chakra UI.",
+        title: "Catprxprx",
+        description:
+          "A Mahjong-inspired puzzle game developed entirely in C++, drawing inspiration from the mobile game Doggo Go. Players strategically collect and match three identical cards to clear them from the tray. The game ends if the tray becomes full, and all cards must be cleared to win.",
+        responsibilities: [
+          "Created in-game visual elements including card designs, backgrounds, and the interactive “How to Play” screen.",
+          "Developed and implemented a card-matching function to accurately detect and handle three-of-a-kind combinations within the tray.",
+        ],
+        github: "https://github.com/TonNattapon/risky.git",
+        image: "src\\images\\draft_catprxprx.png",
+      },
+      {
+        title: "Memable Project",
+        description:
+          "A relaxation-focused game designed to help players relieve stress through simple, accessible gameplay. The goal was to provide a sense of small yet meaningful achievement, encouraging the mindset of “it’s just a small thing.” The gameplay centers on memory and pattern recognition: players observe a sequence of illuminated lights and must correctly replicate the pattern by selecting the corresponding positions.",
+        responsibilities: [
+          "Designed and assembled the electronic circuit supporting the gameplay mechanics.",
+        ],
+        circuit:
+          "https://www.tinkercad.com/things/3SK2ME9Hlxw-memable-with-latch?sharecode=RKT3f6ygdZ7GyN_f7r80oF3eEhjekFSBWqzdHSGXjC0",
+        youtube: "https://m.youtube.com/watch?v=m9wKwuD1l-Q",
+        image: "src\\images\\d_memable.jpg",
       },
     ],
     "💛Learning Projects": [
       {
-        title: "Unity Physics Sandbox",
-        description: "Exploring physics simulation in Unity.",
+        title: "UPBEAT",
+        description:
+          "A turn-based strategy game for two or more players, where the objective is to conquer all territories on the map. Players strategically invest in areas to expand their control, and the last remaining player wins. This was the final project for the Object-Oriented Programming course, developed collaboratively with two teammates. The project combined all core OOP principles — from designing classes to implementing various methods — and was fully developed in Java. As relatively new programmers at the time, we chose a hands-on, collaborative approach: brainstorming together, coding in turns each day, and jointly refining the implementation.",
+        github: "https://github.com/poonbcw/UPBEAT-group20.git",
+        image: "src\\images\\UPBEAT.png",
       },
+
     ],
   };
 
@@ -89,6 +113,8 @@ export default function Projects() {
               research={proj.research}
               responsibilities={proj.responsibilities}
               image={proj.image}
+              youtube={proj.youtube}
+              circuit={proj.circuit}
             />
           ))}
         </Box>
