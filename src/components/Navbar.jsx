@@ -50,7 +50,7 @@ export default function Navbar() {
       >
         PROJECTS
       </Button>
-      <Button
+      {/* <Button
         as={RouterLink}
         to="/courses"
         bg={isActive("/courses") ? "pink.200" : "transparent"}
@@ -62,6 +62,19 @@ export default function Navbar() {
         onClick={onClose}
       >
         COMPLETED COURSES
+      </Button> */}
+      <Button
+        as={RouterLink}
+        to="/certificate"
+        bg={isActive("/certificate") ? "pink.200" : "transparent"}
+        color="black"
+        rounded="xl"
+        _hover={{ bg: "pink.300" }}
+        h={7}
+        px={8}
+        onClick={onClose}
+      >
+        CERTIFICATE
       </Button>
       <Button
         as={RouterLink}
