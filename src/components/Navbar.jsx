@@ -63,7 +63,7 @@ export default function Navbar() {
       >
         COMPLETED COURSES
       </Button> */}
-      <Button
+      {/* <Button
         as={RouterLink}
         to="/certificate"
         bg={isActive("/certificate") ? "pink.200" : "transparent"}
@@ -75,7 +75,7 @@ export default function Navbar() {
         onClick={onClose}
       >
         CERTIFICATE
-      </Button>
+      </Button> */}
       <Button
         as={RouterLink}
         to="/about"

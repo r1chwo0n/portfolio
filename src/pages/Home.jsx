@@ -47,7 +47,7 @@ export default function Home() {
 
               <Flex align="start" position="relative">
                 <Text mr={3}>⚫</Text>
-                <Text>
+                <Text color={"gray.500"}>
                   During my third year (second semester), I simulated working in
                   a software house through the Software Engineering course,
                   enrolled in two computer engineering electives — Data Mining
@@ -59,7 +59,7 @@ export default function Home() {
 
               <Flex align="start" position="relative">
                 <Text mr={3}>⚫</Text>
-                <Text>
+                <Text color={"gray.500"}>
                   In my third year (first semester), I was first introduced to
                   the world of Computational Intelligence through the course
                   Introduction to Computational Intelligence for Computer
@@ -73,7 +73,7 @@ export default function Home() {
 
               <Flex align="start" position="relative">
                 <Text mr={3}>⚫</Text>
-                <Text>
+                <Text color={"gray.500"}>
                   In my second year, I worked on numerous projects in both
                   hardware and software. I studied Object-Oriented Programming
                   (OOP), which became a core foundation, primarily using Java as
@@ -84,7 +84,7 @@ export default function Home() {
 
               <Flex align="start" position="relative">
                 <Text mr={3}>⚫</Text>
-                <Text>
+                <Text color={"gray.500"}>
                   I became a full-fledged Computer Engineering student at Chiang
                   Mai University. It was a year of major adjustment as I moved
                   far from home and began relying on myself, doing everything
