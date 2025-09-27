@@ -13,7 +13,6 @@ import ProjectCard from "../components/ProjectCard";
 export default function Projects() {
   const [selected, setSelected] = useState("❤️In Progress");
 
-  // ตัวอย่าง data
   const projects = {
     "❤️In Progress": [
       {
