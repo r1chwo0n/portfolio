@@ -43,7 +43,7 @@ export default function About() {
         >
           <Box>
             <Image
-              src="src/images/profile.jpg"
+              src="/images/profile.jpg"
               alt="Profile"
               boxSize="300px"
               objectFit="cover"

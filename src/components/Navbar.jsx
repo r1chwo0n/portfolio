@@ -108,7 +108,7 @@ export default function Navbar() {
             bg="pink.200"
             _hover={{ bg: "#B3E5FC" }}
           />
-          <Image src="src/images/logo.png" alt="My Logo" h="60px" />
+          <Image src="/images/logo.png" alt="My Logo" h="60px" />
         </Flex>
       </Box>
 
