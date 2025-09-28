@@ -91,7 +91,7 @@ export default function ProjectCard({
           {responsibilities && responsibilities.length > 0 && (
             <Box>
               <Text fontWeight="semibold" mb={2}>
-                Current Responsibilities:
+                Responsibilities:
               </Text>
               <UnorderedList spacing={2}>
                 {responsibilities.map((item, idx) => (

@@ -67,7 +67,7 @@ export default function Home() {
                   Systems, Genetic Algorithms, and Swarm Intelligence. I also
                   served as a Teaching Assistant for the Logic and Digital
                   Circuits Laboratory course, applying the knowledge I had
-                  previously learned to help guide junior students.
+                  previously learned to help guide students.
                 </Text>
               </Flex>
 
