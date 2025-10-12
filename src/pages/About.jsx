@@ -60,6 +60,19 @@ export default function About() {
               <Text>
                 <b>Age:</b> 22
               </Text>
+              <Text>
+                <b>Hobby:</b> building LEGO and drawing
+              </Text>
+              <Box mt={4}>
+                <AspectRatio maxW="560px" ratio={16 / 9}>
+                  <iframe
+                    src="https://www.youtube.com/embed/JUf0SQ0G8sI"
+                    title="LEGO Building Clip"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </AspectRatio>
+              </Box>
             </Box>
           </Box>
 
