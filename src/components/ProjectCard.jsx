@@ -18,6 +18,7 @@ export default function ProjectCard({
   research,
   youtube,
   circuit,
+  notion,
 }) {
   return (
     <Box bg="white" borderRadius="md" boxShadow="md" p={6} mb={4}>
@@ -84,6 +85,17 @@ export default function ProjectCard({
                 isExternal
               >
                 View on Circuit
+              </Link>
+            )}
+
+            {notion && (
+              <Link
+                href={notion}
+                color="blue.500"
+                fontWeight="bold"
+                isExternal
+              >
+                View on Notion
               </Link>
             )}
           </Stack>

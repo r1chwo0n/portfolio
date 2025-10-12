@@ -46,6 +46,18 @@ export default function Projects() {
     ],
     "💚Completed Projects": [
       {
+        title: "Drug inventory system",
+        description:
+          "The Drug Inventory System is designed to manage and optimize the storage and tracking of medications in a clinic or healthcare facility. The system aims to streamline operations, reduce manual errors, and ensure timely replenishment of stock to prevent shortages or waste due to expired medications.",
+        responsibilities: [
+          "Served as the Project Manager, responsible for communicating updates to team members and assigning tasks to each member.",
+          "Worked as a Backend Developer, focusing on API and database development. Participated in designing database relations, creating database schemas, and implementing APIs for the system.",
+        ],
+        notion:
+          "https://picturesque-burst-f3b.notion.site/PainKiller-drug-inventory-system-14211ae10f5180a3a9a7c147db71e72e?source=copy_link",
+        image: "\\images\\Painkiller.jpg",
+      },
+      {
         title: "Catprxprx",
         description:
           "A Mahjong-inspired puzzle game developed entirely in C++, drawing inspiration from the mobile game Doggo Go. Players strategically collect and match three identical cards to clear them from the tray. The game ends if the tray becomes full, and all cards must be cleared to win.",
@@ -77,7 +89,6 @@ export default function Projects() {
         github: "https://github.com/poonbcw/UPBEAT-group20.git",
         image: "\\images\\UPBEAT.png",
       },
-
     ],
   };
 
@@ -113,6 +124,7 @@ export default function Projects() {
               image={proj.image}
               youtube={proj.youtube}
               circuit={proj.circuit}
+              notion={proj.notion}
             />
           ))}
         </Box>
