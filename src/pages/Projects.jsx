@@ -24,7 +24,7 @@ export default function Projects() {
           "Test player movement and interactions within the map to ensure stable gameplay.",
           "Design and implement the bot decision-making system using Fuzzy Logic, allowing direct comparison with a Hard-coded Rules approach.",
         ],
-        image: "/images/game.png",
+        image: "https://drive.google.com/uc?export=view&id=1E7pIpqRjPi-V8PeH1d1c1SDLoJMGhOSv",
         github: "https://github.com/r1chwo0n/hideAwayHuntsGame.git",
       },
       {
@@ -40,7 +40,7 @@ export default function Projects() {
           "Compare and verified results between MATLAB Implementation and Python Implementation.",
           "Package the Python library and prepared it for public release on PyPI to allow wider adoption and ease of use.",
         ],
-        image: "/images/sgfc.png",
+        image: "https://drive.google.com/uc?export=view&id=1FWQs5JQRchwXBxGwisdV1lRzgB2tBsPw",
         research: "https://ieeexplore.ieee.org/document/7338109",
       },
     ],
@@ -55,7 +55,7 @@ export default function Projects() {
         ],
         notion:
           "https://picturesque-burst-f3b.notion.site/PainKiller-drug-inventory-system-14211ae10f5180a3a9a7c147db71e72e?source=copy_link",
-        image: "/images/Painkiller.jpg",
+        image: "https://drive.google.com/uc?export=view&id=1ZLU4A5Wptne1xK4DOgGK7Ut9wo2LTNnH",
       },
       {
         title: "Catprxprx",
@@ -66,7 +66,7 @@ export default function Projects() {
           "Developed and implemented a card-matching function to accurately detect and handle three-of-a-kind combinations within the tray.",
         ],
         github: "https://github.com/TonNattapon/risky.git",
-        image: "/images/draft_catprxprx.png",
+        image: "https://drive.google.com/uc?export=view&id=197OAGTTcM_3yUYWTC27-mavSN0Svc5KL",
       },
       {
         title: "Memable Project",
@@ -78,7 +78,7 @@ export default function Projects() {
         circuit:
           "https://www.tinkercad.com/things/3SK2ME9Hlxw-memable-with-latch?sharecode=RKT3f6ygdZ7GyN_f7r80oF3eEhjekFSBWqzdHSGXjC0",
         youtube: "https://m.youtube.com/watch?v=m9wKwuD1l-Q",
-        image: "/images/d_memable.jpg",
+        image: "https://drive.google.com/uc?export=view&id=1GMdcUZR_Ese4VqqWcE39Q-w46pcuC65g",
       },
     ],
     "💛Learning Projects": [
@@ -87,7 +87,7 @@ export default function Projects() {
         description:
           "A turn-based strategy game for two or more players, where the objective is to conquer all territories on the map. Players strategically invest in areas to expand their control, and the last remaining player wins. This was the final project for the Object-Oriented Programming course, developed collaboratively with two teammates. The project combined all core OOP principles — from designing classes to implementing various methods — and was fully developed in Java. As relatively new programmers at the time, we chose a hands-on, collaborative approach: brainstorming together, coding in turns each day, and jointly refining the implementation.",
         github: "https://github.com/poonbcw/UPBEAT-group20.git",
-        image: "/images/UPBEAT.png",
+        image: "https://drive.google.com/uc?export=view&id=1pt7GWHKC-g3k7f-ORIH9-p1MY28lsRBj",
       },
     ],
   };
