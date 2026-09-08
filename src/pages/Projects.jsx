@@ -54,7 +54,7 @@ export default function Projects() {
           "Test player movement and interactions within the map to ensure stable gameplay.",
           "Design and implement the bot decision-making system using Fuzzy Logic, allowing direct comparison with a Hard-coded Rules approach.",
         ],
-        image: "/images/game.png",
+        image: "/images/final_project_pic.jpg",
         github: "https://github.com/r1chwo0n/hideAwayHuntsGame.git",
       },
       {
