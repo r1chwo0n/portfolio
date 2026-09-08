@@ -37,11 +37,34 @@ export default function Home() {
               />
 
               <Flex align="start" position="relative">
-                <Text mr={3}>🔴</Text>
+                <Text mr={3}>🟢</Text>
                 <Text>
-                  I am a cooperative education student currently interning at
-                  the Computational Intelligence Research Lab and a fourth-year
-                  Computer Engineering student at Chiang Mai University.
+                  I finally graduated with a Bachelor of Engineering in Computer
+                  Engineering from Chiang Mai University.
+                </Text>
+              </Flex>
+
+              <Flex align="start" position="relative">
+                <Text mr={3}>⚫</Text>
+                <Text color={"gray.500"}>
+                  In my final year, second semester, I returned to regular
+                  classes after completing my internship. I successfully
+                  finished my senior project, which focused on developing a
+                  single-player game using fuzzy logic. Additionally, I worked
+                  on a project for the Advanced Computer Engineering Technology
+                  course. This course simulated a real-world tech company
+                  environment, where I was assigned to the organization's system
+                  team. Additionally, I took a Machine Vision course, which gave
+                  me a solid understanding of image processing concepts.
+                </Text>
+              </Flex>
+
+              <Flex align="start" position="relative">
+                <Text mr={3}>⚫</Text>
+                <Text color={"gray.500"}>
+                  I was a cooperative education student at the Computational
+                  Intelligence Research Lab and a fourth-year Computer
+                  Engineering student at Chiang Mai University.
                 </Text>
               </Flex>
 

@@ -5,7 +5,7 @@ import {
   Text,
   SimpleGrid,
   useBreakpointValue,
-  AspectRatio
+  AspectRatio,
 } from "@chakra-ui/react";
 
 const swotData = [
